@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main Application" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.codecamp.Main" />
+    <module name="learnjava" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
