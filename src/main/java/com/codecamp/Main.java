@@ -62,13 +62,17 @@ public class Main {
             scanner.close();
         }
 
-        //--- Testing Traditional Data Class vs Record Class
+        //--- Testing Traditional Data Class vs Record Class ---
         DataRecordExample employee = new DataRecordExample("Travis Barker",23502);
         System.out.println("DataRecordExample toString Method: " + employee.toString());
 
-        //--- Testing new Record Class
+        //--- Testing new Record Class ---
         EmployeeRecord record = new EmployeeRecord("Travis Barker",23502);
         System.out.println("EmployeeRecord    toString Method: " + record.toString());
+
+        //--- Export an HTML Template file ---
+        HTMLTemplate template = new HTMLTemplate("CodeCamp16");
+        template.exportHtmlTemplate();
 
 
     }
